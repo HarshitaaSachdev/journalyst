@@ -7,7 +7,7 @@ import CardHeader from "./CardHeader";
 interface MarketCardProps {
   title: string;
   content: string;
-  chart?: string; 
+  chart?: string;
   tradeData?: {
     ticker: string;
     entry: string;
